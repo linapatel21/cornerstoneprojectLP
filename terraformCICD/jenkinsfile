@@ -6,7 +6,7 @@ pipeline{
 stages{
     stage('Git check out'){
         steps{
-            git branch: 'main', url: '$$$$$$'
+            git branch: 'main', url: 'https://github.com/linapatel21/cornerstoneprojectLP/tree/c041d6e5d45cbf893364bc9e610fecb764a99437/terraformCICD'
         }
     }
         stage('terraform init'){
